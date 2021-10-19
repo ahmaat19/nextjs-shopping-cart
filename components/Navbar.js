@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className='navbar navbar-expand-sm navbar-light bg-light'>
       <div className='container'>
         <Link href='/'>
-          <a className='navbar-brand'>SHOP CART</a>
+          <a className='navbar-brand'>SHOPPING CART</a>
         </Link>
         <button
           className='navbar-toggler'

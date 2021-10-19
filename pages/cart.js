@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Head from 'next/head'
 import { FaMinusCircle, FaPlusCircle } from 'react-icons/fa'
 import { useCart } from 'react-use-cart'
 
@@ -7,6 +8,10 @@ const Cart = () => {
 
   return (
     <div className=''>
+      <Head>
+        <title>Cart</title>
+        <meta property='og:title' content='Cart' key='title' />
+      </Head>
       <h6 className='text-center text-info'>SHOPPING CART</h6>{' '}
       <hr className='text-primary' />
       <div className='row'>
